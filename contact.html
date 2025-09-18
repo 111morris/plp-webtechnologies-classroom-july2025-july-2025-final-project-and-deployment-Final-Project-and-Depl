@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>John Doe Portfolio - Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">John Doe</a>
+      <nav id="nav-menu" class="nav-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="nav-toggle" aria-label="Toggle navigation menu">&#9776;</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact-hero">
+      <div class="container">
+        <h1>Get In Touch</h1>
+        <p>Ready to start your project? Let's discuss how I can help you.</p>
+      </div>
+    </section>
+
+    <section class="contact-content container">
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+        <div class="contact-details">
+          <div class="contact-item">
+            <strong>Email:</strong>
+            <span>john@example.com</span>
+          </div>
+          <div class="contact-item">
+            <strong>Phone:</strong>
+            <span>+1 (555) 123-4567</span>
+          </div>
+          <div class="contact-item">
+            <strong>Location:</strong>
+            <span>San Francisco, CA</span>
+          </div>
+          <div class="contact-item">
+            <strong>Hours:</strong>
+            <span>Mon-Fri: 9AM-6PM PST</span>
+          </div>
+        </div>
+        
+        <div class="social-contact">
+          <h3>Follow Me</h3>
+          <div class="social-icons">
+            <a href="#" aria-label="GitHub">GitHub</a>
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="Twitter">Twitter</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h2>Send a Message</h2>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <span class="error-message" id="nameError"></span>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error-message" id="emailError"></span>
+          </div>
+          
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+            <span class="error-message" id="subjectError"></span>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <span class="error-message" id="messageError"></span>
+          </div>
+          
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="map container">
+      <h2>Location</h2>
+      <div class="map-placeholder">
+        <img src="https://placeholder-image-service.onrender.com/image/600x300?prompt=Map of San Francisco California&id=4e72baaf-6c13-48f3-b439-d92f5138fc5f" alt="Map of San Francisco California showing approximate location" />
+        <p>Based in San Francisco, serving clients worldwide</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 John Doe. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" aria-label="GitHub">GitHub</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
