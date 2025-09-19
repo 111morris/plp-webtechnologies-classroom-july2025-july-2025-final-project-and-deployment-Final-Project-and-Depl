@@ -27,11 +27,11 @@ faders.forEach(section => {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-  const progressBars = document.querySelectorAll('.skill-progress');
+	const progressBars = document.querySelectorAll('.skill-progress');
 
-  progressBars.forEach(bar => {
-    const percent = bar.getAttribute('data-percent');
-    bar.style.width = percent + '%';
-  });
+	progressBars.forEach(bar => {
+		const percent = bar.getAttribute('data-percent');
+		bar.style.width = percent + '%';
+	});
 });
 
